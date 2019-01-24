@@ -1,7 +1,5 @@
-# laravel-realtime-analytics-dashboard
+# laravel-analytics-dashboard
 Laravel app that uses an "after" middleware to track all requests and display analytics in realtime in a dashboard
-
-[View tutorial](https://pusher.com/tutorials/realtime-analytics-dashboard-laravel)
 
 ## Prerequisites
 - PHP >= 7.2
@@ -13,8 +11,8 @@ Laravel app that uses an "after" middleware to track all requests and display an
 Clone the project and install dependencies:
 
 ```bash
-git clone https://github.com/shalvah/laravel-realtime-analytics-dashboard
-cd laravel-realtime-analytics-dashboard && composer install && npm install
+git clone https://github.com/sinstar2000/laravel-analytics-dashboard
+cd laravel-analytics-dashboard && composer install && npm install
 ```
 
 Copy the `.env.example` file to a `.env` file. Add your Pusher app credentials to this file:
